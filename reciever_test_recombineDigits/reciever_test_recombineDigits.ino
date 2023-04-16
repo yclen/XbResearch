@@ -15,14 +15,7 @@ void setup() {
 
 }
 
-int intPow(int base, int exponent) {
-  int result = 1;
 
-  for (int i = 0; i < exponent; i++) {
-    result *= base;
-  }
-  return result;
-}
 
 int tenTo(int power){
   int result = 1;
@@ -89,7 +82,7 @@ if (mySerial.available()) {  // check if data is available on serial port
         else {
           b = num;
           setA = true;
-          Serial.print("A equals: ");
+        Serial.print("A equals: ");
         Serial.print(a);
         Serial.print(" | B equals: ");
         Serial.println(b);
