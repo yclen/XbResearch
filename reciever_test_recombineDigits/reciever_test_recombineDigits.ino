@@ -61,7 +61,7 @@ int b;
 bool setA = true;
 int digit;
 int num = 0;
-int i = 0;
+int i = 1;
 char data;
 
 void loop() {
